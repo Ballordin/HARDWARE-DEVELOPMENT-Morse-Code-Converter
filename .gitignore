@@ -1,0 +1,11 @@
+# Ignorar pastas de compilação
+Debug/
+Release/
+*.o
+*.d
+*.hex
+*.elf
+# Ignorar ficheiros do Visual Studio/Atmel
+.vs/
+*.user
+*.vbak
