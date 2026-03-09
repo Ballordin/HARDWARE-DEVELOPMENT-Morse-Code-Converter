@@ -1,45 +1,51 @@
-# Temperature to Morse Code Encoder
+Temperature to Morse Code Encoder
 
-A professional embedded systems project developed for the **Laboratory of Hardware Development** (UTeSP - Sistemas Eletrónicos e Computadores). This device monitors ambient temperature using a PT100 sensor and encodes the data into Morse Code, delivered via audio (Buzzer) and visual (LED) signals.
+A professional embedded systems project developed for the Laboratory of Hardware Development (UTeSP - Sistemas Eletrónicos e Computadores). This device monitors ambient temperature using a PT100 sensor and encodes the data into Morse Code, delivered via audio (Buzzer) and visual (LED) signals.
 
-## 🚀 Project Overview
+🚀 Project Overview
+
 The system features two primary modes of operation, controlled via a TTL serial interface:
-- **Mode 1 (Standard):** Real-time temperature monitoring and encoding.
-- **Mode 2 (Manual):** Interruption of sensor reading to encode user-provided strings/characters received via UART into Morse Code.
+Mode 1 (Standard): Real-time temperature monitoring and encoding.
+Mode 2 (Manual): Interruption of sensor reading to encode user-provided strings/characters received via UART.
 
-### Key Requirements
-- **Microcontroller:** ATmega328P.
-- **Communication:** UART at 115200 bps.
-- **User Interface:** Two physical buttons to increment/decrement signal BPS (bits per second).
-- **Audio Control:** Configurable sound frequency via software commands.
+Key Features & Commands
+  - Microcontroller: ATmega328P (Running at 8MHz).
+  - Baud Rate: 9600 bps (standard) / 115200 bps (high speed).
+  - Interactive Commands:
+      - ! : Toggle output between LED and Buzzer.
+      - # : Toggle between Temperature mode and Manual String mode.
+      - + / - : Increment or decrement the Buzzer tone frequency (PWM).
+  - Physical Interface: Two buttons to adjust the Morse transmission speed (BPS).
 
-## 🛠 Hardware Design (Altium Designer)
-The hardware was designed with a focus on cost-optimization and electrical stability.
-- [cite_start]**Sensor:** PT100 RTD integrated into a Wheatstone bridge for precise temperature measurement[cite: 551].
-- **Indicators:** - Red LED (Morse output)
-  - [cite_start]Yellow LED (Status/Debug)[cite: 524].
-- [cite_start]**Sound:** MP-ABI-050-RC Electro-mechanical Buzzer (selected for its low current draw of 30mA, allowing direct connection to the MCU)[cite: 63].
-- **Power & Protection:** - Integrated USB-to-TTL conversion for power and data.
-  - [cite_start]Decoupling capacitors (10µF and 100nF) for ADC stability and high-frequency noise filtering[cite: 1082, 1083].
-  - [cite_start]SMD components utilized for high-frequency performance and reliability[cite: 527].
+🛠 Hardware Design (Altium Designer)
+
+The hardware focuses on signal integrity and cost-optimization.
+  - Signal Conditioning: PT100 RTD integrated into a Wheatstone bridge for precise analog-to-digital conversion.
+  - Buzzer: MP-ABI-050-RC (Low-power, 30mA), driven directly by the MCU.
+  - Power & Protection: * Integrated USB-to-TTL conversion for power and data.
+      - PTC Resettable fuse and decoupling capacitors (10µF and 100nF) for ADC stability and noise filtering.
+      - Strategic use of SMD components for high-frequency performance and reliability.
+
+💻 Firmware (Embedded C)
+
+The software follows a modular architecture for better maintainability:
+  - UART Driver: Custom asynchronous communication handler for serial commands.
+  - GPIO & Morse Engine: Optimized dictionary for alphanumeric translation into timed Dot (200ms) and Dash (600ms) sequences.
+  - PWM Control: Used for dynamic frequency adjustment of the audio output.
+  - Interrupt Handling: Real-time UART RX processing to ensure no characters are lost during transmission.
+
+📂 Repository Structure
 
 
-## 💻 Firmware (Embedded C)
-The software was developed using a modular approach in Embedded C, focusing on hardware abstraction and efficient interrupt handling.
-- [cite_start]**UART Library:** Custom driver for asynchronous serial communication at 115200 bps[cite: 528].
-- [cite_start]**ADC Driver:** Handles the conversion of analog signals from the PT100 bridge[cite: 305].
-- [cite_start]**PWM Control:** Utilized for adjusting the frequency of the Morse "beeps" on the buzzer[cite: 331].
-- [cite_start]**Morse Logic:** Algorithmic translation of alphanumeric characters into timed dot/dash sequences[cite: 235].
+  - /firmware: C source code, header files, and Atmel Studio project files.
+  - /hardware: Altium Designer schematics, PCB layout, and manufacturing Gerbers.
+  - /docs: Technical reports, market studies, and project planning.
 
-## 📂 Project Structure
-- [cite_start]`G5_25547_25548.pdf`: Comprehensive final technical report[cite: 445].
-- [cite_start]`Problem Statement`: Initial functional and non-functional requirements[cite: 536].
-- [cite_start]`Analysis & Design`: Market study of components and theoretical foundations.
+👥 Author
+  - Tiago Oliveira (25547)
 
-## 👥 Authors
-- **Tiago Oliveira** (25547)
-- **Rodrigo Pinto** (25548)
-- [cite_start]**Institution:** IPCA - Escola Técnica Superior Profissional[cite: 444, 452, 453].
+Institution: IPCA - Escola Técnica Superior Profissional (2023/2024)
 
----
-*Developed as part of the Laboratory of Hardware Development Course, 2023/2024.*
+---------------------------------------------------------------------------------
+Developed as part of the Laboratory of Hardware Development Course.
+---------------------------------------------------------------------------------
