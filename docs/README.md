@@ -1,4 +1,5 @@
 📄 Project Documentation
+
 This folder contains the formal technical documentation, academic reports, and design analysis for the Morse Code Temperature Encoder project.
 
 📂 Document Overview
