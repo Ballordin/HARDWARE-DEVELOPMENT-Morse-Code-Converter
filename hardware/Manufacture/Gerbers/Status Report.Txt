@@ -1,0 +1,26 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCB_Project.PrjPcb]
+   Generated File[PCBTESTE_Legend_Top.gbr]
+   Generated File[PCBTESTE_Paste_Top.gbr]
+   Generated File[PCBTESTE_Soldermask_Top.gbr]
+   Generated File[PCBTESTE_Copper_Signal_Top.gbr]
+   Generated File[PCBTESTE_Copper_Signal_Bot.gbr]
+   Generated File[PCBTESTE_Soldermask_Bot.gbr]
+   Generated File[PCBTESTE_Mechanical_1.gbr]
+   Generated File[PCBTESTE_Mechanical_13.gbr]
+   Generated File[PCBTESTE_Mechanical_15.gbr]
+   Generated File[PCBTESTE_Keep-out.gbr]
+   Generated File[PCBTESTE_Pads_Top.gbr]
+   Generated File[PCBTESTE_Pads_Bot.gbr]
+   Generated File[PCBTESTE_Drawing_1.gbr]
+   Generated File[PCBTESTE_Drillmap_1.gbr]
+   Generated File[PCB_Profile.gbr]
+   Generated File[PCB.EXTREP]
+   Generated File[PCB.REP]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 00:16:25 On 09/03/2026
