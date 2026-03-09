@@ -4,6 +4,7 @@ This folder contains the formal technical documentation, academic reports, and d
 
 📂 Document Overview
 1. Final Technical Report
+
 The comprehensive final document covering the entire project lifecycle.
 
 Contents: System architecture, hardware/software integration details, flowcharts, and final testing results.
