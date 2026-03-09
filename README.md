@@ -2,6 +2,14 @@
 
 A professional embedded systems project developed for the Laboratory of Hardware Development (UTeSP - Sistemas Eletrónicos e Computadores). This device monitors ambient temperature using a PT100 sensor and encodes the data into Morse Code, delivered via audio (Buzzer) and visual (LED) signals.
 
+## 🖼️ Hardware Preview
+
+The PCB was designed and modeled in Altium Designer, featuring a compact layout and optimized signal paths for the PT100 conditioning circuit.
+
+| 2D PCB Layout | 3D Model Render |
+| :---: | :---: |
+| ![2D Layout](./hardware/Images/pcb_2D_layout.png) | ![3D Layout](./hardware/Images/pcb_3D_Layout.png) |
+
 ## 🚀 Project Overview
 
 The system features two primary modes of operation, controlled via a TTL serial interface:
