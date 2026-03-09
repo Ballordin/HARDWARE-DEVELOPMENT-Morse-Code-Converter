@@ -1,4 +1,4 @@
-                                              Temperature to Morse Code Encoder
+#              Temperature to Morse Code Encoder
 
 A professional embedded systems project developed for the Laboratory of Hardware Development (UTeSP - Sistemas Eletrónicos e Computadores). This device monitors ambient temperature using a PT100 sensor and encodes the data into Morse Code, delivered via audio (Buzzer) and visual (LED) signals.
 
