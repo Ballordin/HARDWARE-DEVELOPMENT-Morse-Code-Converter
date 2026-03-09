@@ -17,7 +17,7 @@ Key Features & Commands
       - '+' / '-' : Increment or decrement the Buzzer tone frequency (PWM).
   - Physical Interface: Two buttons to adjust the Morse transmission speed (BPS).
 
-🛠 Hardware Design (Altium Designer)
+## 🛠 Hardware Design (Altium Designer)
 
 The hardware focuses on signal integrity and cost-optimization.
   - Signal Conditioning: PT100 RTD integrated into a Wheatstone bridge for precise analog-to-digital conversion.
@@ -26,7 +26,7 @@ The hardware focuses on signal integrity and cost-optimization.
       - PTC Resettable fuse and decoupling capacitors (10µF and 100nF) for ADC stability and noise filtering.
       - Strategic use of SMD components for high-frequency performance and reliability.
 
-💻 Firmware (Embedded C)
+## 💻 Firmware (Embedded C)
 
 The software follows a modular architecture for better maintainability:
   - UART Driver: Custom asynchronous communication handler for serial commands.
@@ -34,18 +34,18 @@ The software follows a modular architecture for better maintainability:
   - PWM Control: Used for dynamic frequency adjustment of the audio output.
   - Interrupt Handling: Real-time UART RX processing to ensure no characters are lost during transmission.
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 
   - /firmware: C source code, header files, and Atmel Studio project files.
   - /hardware: Altium Designer schematics, PCB layout, and manufacturing Gerbers.
   - /docs: Technical reports, market studies, and project planning.
 
-👥 Author
+## 👥 Author
   - Tiago Oliveira (25547)
 
 Institution: IPCA - Escola Técnica Superior Profissional (2023/2024)
 
 ---------------------------------------------------------------------------------
-Developed as part of the Laboratory of Hardware Development Course.
+## Developed as part of the Laboratory of Hardware Development Course.
 ---------------------------------------------------------------------------------
