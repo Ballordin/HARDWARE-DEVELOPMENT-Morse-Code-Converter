@@ -1,7 +1,7 @@
-Hardware Design
+🛠 Hardware Design
 This folder contains all the hardware development files for the Morse Code Temperature Encoder, designed using Altium Designer.
 
-Technical Specifications
+📋 Technical Specifications
 The PCB was designed to be a standalone shield/board based on the ATmega328P microcontroller, focused on precision sensing and signal conditioning.
 
 1. Signal Conditioning (PT100 Sensor)
