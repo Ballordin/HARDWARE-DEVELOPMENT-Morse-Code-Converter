@@ -12,9 +12,9 @@ Key Features & Commands
   - Microcontroller: ATmega328P (Running at 8MHz).
   - Baud Rate: 9600 bps (standard) / 115200 bps (high speed).
   - Interactive Commands:
-      - ! : Toggle output between LED and Buzzer.
-      - # : Toggle between Temperature mode and Manual String mode.
-      - + / - : Increment or decrement the Buzzer tone frequency (PWM).
+      - '!' : Toggle output between LED and Buzzer.
+      - '#' : Toggle between Temperature mode and Manual String mode.
+      - '+' / '-' : Increment or decrement the Buzzer tone frequency (PWM).
   - Physical Interface: Two buttons to adjust the Morse transmission speed (BPS).
 
 🛠 Hardware Design (Altium Designer)
