@@ -2,7 +2,7 @@
 
 A professional embedded systems project developed for the Laboratory of Hardware Development (UTeSP - Sistemas Eletrónicos e Computadores). This device monitors ambient temperature using a PT100 sensor and encodes the data into Morse Code, delivered via audio (Buzzer) and visual (LED) signals.
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 The system features two primary modes of operation, controlled via a TTL serial interface:
 Mode 1 (Standard): Real-time temperature monitoring and encoding.
