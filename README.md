@@ -10,7 +10,18 @@ The PCB was designed and modeled in Altium Designer, featuring a compact layout 
 | :---: | :---: |
 | ![2D Layout](./hardware/Images/pcb_2D_layout.png) | ![3D Layout](./hardware/Images/pcb_3D_Layout.png) |
 
-## 🚀 Project Overview
+## 🚀 Manufacturing Sponsorship by PCBWAY
+
+The physical hardware for this project was generously sponsored and fabricated by **PCBWay**. 
+
+### Manufacturing & Quality Highlights:
+* **Precision Trace Fabrication:** Flawless copper execution on both layers, accurately handling the delicate analog signal tracks coming from the PT100 Wheatstone bridge conditioning circuit.
+* **Solder Mask & Silk Screen Quality:** The crisp, high-contrast white silk screening makes identifying component identifiers (like the PTC fuse and decoupling capacitors) effortless during manual assembly.
+* **Mechanical Reliability:** Pristine via-plating and clean drill alignments across all through-hole footprints (DIP-28 socket, headers, and switches).
+
+A huge thank you to [PCBWay](https://www.pcbway.com) for supporting student engineering projects and providing top-tier manufacturing turnaround!
+
+## 📋 Project Overview
 
 The system features two primary modes of operation, controlled via a TTL serial interface:
 Mode 1 (Standard): Real-time temperature monitoring and encoding.
