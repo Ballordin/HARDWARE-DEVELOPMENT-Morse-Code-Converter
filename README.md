@@ -7,7 +7,7 @@ A professional embedded systems project developed for the Laboratory of Hardware
 The PCB was designed and modeled in Altium Designer, featuring a compact layout and optimized signal paths for the PT100 conditioning circuit.
 
 ## 🛠️ Finished Physical Assembly
-p
+
 ![Physical Manufactured PCB](./hardware/Images/pcb_Physical_Assembly.png)
 
 ## 💻 CAD Design
