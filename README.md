@@ -6,11 +6,15 @@ A professional embedded systems project developed for the Laboratory of Hardware
 
 The PCB was designed and modeled in Altium Designer, featuring a compact layout and optimized signal paths for the PT100 conditioning circuit.
 
-| 2D PCB Layout | 3D Model Render | Physical Board |
-| :---: | :---: | :---: |
-| ![2D Layout](./hardware/Images/pcb_2D_layout.png) | ![3D Layout](./hardware/Images/pcb_3D_Layout.png) | ![Physical Board](./hardware/Images/pcb_Physical_Board.jpg) |
+## 🛠️ Finished Physical Assembly
+p
+![Physical Manufactured PCB](./hardware/Images/pcb_Physical_Assembly.png)
 
----
+## 💻 CAD Design
+
+| 2D PCB Layout | 3D Model Render |
+| :---: | :---: |
+| ![2D Layout](./hardware/Images/pcb_2D_layout.png) | ![3D Layout](./hardware/Images/pcb_3D_Layout.png) |
 
 ## 🚀 Manufacturing Sponsorship by PCBWAY
 
