@@ -16,16 +16,19 @@ The PCB was designed and modeled in Altium Designer, featuring a compact layout 
 | :---: | :---: |
 | ![2D Layout](./hardware/Images/pcb_2D_layout.png) | ![3D Layout](./hardware/Images/pcb_3D_Layout.png) |
 
-## 🚀 Manufacturing Sponsorship by PCBWAY
+## 🚀 Manufacturing Sponsorship & Quality Review
 
-The physical hardware for this project was generously sponsored and fabricated by **PCBWay**. 
+The physical hardware execution for this project was generously sponsored and fabricated by **PCBWay**. 
 
-### Manufacturing & Quality Highlights:
-* **Precision Trace Fabrication:** Flawless copper execution on both layers, accurately handling the delicate analog signal tracks coming from the PT100 Wheatstone bridge conditioning circuit.
-* **Solder Mask & Silk Screen Quality:** The crisp, high-contrast white silk screening makes identifying component identifiers (like the PTC fuse and decoupling capacitors) effortless during manual assembly.
-* **Mechanical Reliability:** Pristine via-plating and clean drill alignments across all through-hole footprints (DIP-28 socket, headers, and switches).
+### 🌟 Experience & Quality of Service
+Working with PCBWay was an absolute breeze from start to finish. A massive shoutout goes to **Liam from the Marketing Department** for reaching out, coordinating this partnership, and providing an immaculate, highly attentive service throughout the entire procurement cycle. 
 
-A huge thank you to [PCBWay](https://www.pcbway.com) for supporting student engineering projects and providing top-tier manufacturing turnaround!
+The fabrication quality delivered by their engineering facility is exceptional:
+* **Precision Trace Fabrication:** Flawless copper execution on both layers, accurately preserving the delicate analog signal tracks coming from the PT100 Wheatstone bridge conditioning circuit.
+* **Solder Mask & Silk Screen Cleanliness:** The crisp, high-contrast white silk screening over the beautiful blue solder mask makes identifying component designators (like the PTC fuse and decoupling capacitors) effortless during manual assembly.
+* **Mechanical Reliability:** Pristine via-plating and perfect drill alignments across all through-hole footprints, ensuring the DIP-28 socket and tactile switches seated perfectly flat against the substrate.
+
+A huge thank you to Liam and the entire [PCBWay](https://www.pcbway.com) team for supporting student engineering projects and providing top-tier manufacturing turnaround!
 
 ## 📋 Project Overview
 
